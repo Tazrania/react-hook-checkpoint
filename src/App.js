@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import MovieList from './MovieList';
 import Filter from './Filter';
 import MovieForm from './MovieForm';
