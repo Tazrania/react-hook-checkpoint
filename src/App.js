@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Movie Collection</h1>
+      <h1>Movies</h1>
       <Filter onFilter={handleFilter} />
       <MovieList movies={movies} />
       <MovieForm onAddMovie={handleAddMovie} />
